@@ -1,0 +1,82 @@
+.mytodos {
+  width: 640px;
+  max-height: 600px;
+  background-color: #ededed;
+  border-radius: 6px;
+  position: relative;
+  padding: 35px;
+}
+
+.mytodos--title--search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.mytodos--title {
+  font-size: 30px;
+}
+
+.mytodos--input {
+  border-radius: 5px;
+  border: none;
+  padding: 13px 0 13px 30px;
+  width: 160px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.mytodos--input:focus {
+  outline: none;
+}
+
+.mytodos--nav {
+  margin-top: 30px;
+}
+
+.mytodos--nav span {
+  font-size: 15px;
+}
+
+.mytodos--nav button {
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0 5px;
+  transition: 0.3s all;
+}
+
+.mytodos--nav button:hover {
+  font-weight: 700;
+  color: #00b3db;
+}
+
+.todo--items {
+  max-height: 450px;
+  width: 608px;
+  overflow: auto;
+}
+
+.todo--items::-webkit-scrollbar {
+  width: 4px;
+}
+
+.todo--items::-webkit-scrollbar-track {
+  border-radius: 40%;
+}
+
+.todo--items::-webkit-scrollbar-thumb {
+  background-color: #00b3db;
+  border-radius: 5px;
+  border-radius: 40px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(0deg, rgba(237, 237, 237, 0.7) 40%, rgba(255, 255, 255, 0) 90%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+}

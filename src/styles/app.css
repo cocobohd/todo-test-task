@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  cursor: default;
+  max-width: 430px;
+}
+
+.header--blue {
+  width: 100%;
+  background: #00B3DB;
+  height: 75px;
+}
+
+.main {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main--title {
+  font-size: 45px;
+}
+
+.main--content {
+  width: 1200px;
+}
+
+.main--components {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}

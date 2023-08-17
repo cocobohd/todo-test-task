@@ -1,0 +1,44 @@
+.addtodo {
+  background-color: #EDEDED;
+  padding: 30px;
+  width: 520px;
+  height: 170px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.addtodo--input {
+  width: 456px;
+  height: 55px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 0 20px 30px;
+  margin-top: 30px;
+}
+
+.addtodo--input:focus{
+  outline: none;
+}
+
+.addtodo--btn {
+  width: 45px;
+  height: 40px;
+  background: #00B3DB;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  right: 45px;
+  top: 92px;
+  cursor: pointer;
+  transition: all 0.4s;
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.addtodo--btn.active {
+  pointer-events: all;
+  opacity: 1;
+}

@@ -1,0 +1,74 @@
+@media (max-width: 1215px) {
+  .main--content {
+    width: 640px;
+    margin: 0 15px 5px 15px;
+  }
+  .main--components {
+    justify-content: center;
+  }
+  .addtodo {
+    width: 640px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header--blue {
+    height: 55px;
+  }
+  .main {
+    padding-top: 40px;
+  }
+  .main--title {
+    font-size: 30px;
+  }
+  .main--components {
+    margin-top: 30px;
+  }
+  .main--content {
+    width: 345px;
+  }
+  .addtodo {
+    width: 345px;
+  }
+  .addtodo {
+    padding: 25px;
+  }
+  .addtodo--input {
+    width: 300px;
+  }
+  .addtodo--btn {
+    right: 30px;
+    top: 86px;
+  }
+  .addtodo--input {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .mytodos {
+    width: 345px;
+    padding: 40px 15px 0 15px;
+  }
+  .mytodos--input {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .mytodos--nav {
+    display: none;
+  }
+  .todo--items {
+    max-height: 335px;
+    margin-top: 15px;
+    width: 105%;
+  }
+  .item {
+    padding: 30px 25px;
+  }
+  .item--title {
+    font-size: 14px;
+    max-width: 200px;
+  }
+  .mytodos--title--search {
+    display: block;
+  }
+}
